@@ -1,0 +1,14 @@
+/*@!Encoding:936*/
+includes
+{
+  
+}
+
+variables
+{
+  
+}
+
+on message Msg1 {
+  sysSetVariableInt(sysvar::MyNamespace::svLight,this.bsSwitch);
+}
